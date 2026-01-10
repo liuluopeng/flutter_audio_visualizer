@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flutter_audio_visualizer">
+
+    <!-- 录音权限，用于Visualizer API -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <!-- 允许访问音频设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+</manifest>

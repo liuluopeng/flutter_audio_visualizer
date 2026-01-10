@@ -1,0 +1,24 @@
+name: flutter_audio_visualizer
+description: Flutter plugin for real-time audio visualization using Android Visualizer API.
+version: 0.0.1
+author: 
+homepage: 
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.10.5
+  permission_handler: ^11.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.flutter_audio_visualizer
+        pluginClass: FlutterAudioVisualizerPlugin
+      ios:
+        pluginClass: FlutterAudioVisualizerPlugin
